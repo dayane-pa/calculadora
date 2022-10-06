@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 400px) {
+    
+
+    section {
+        top: 5%;
+        width: 350px; 
+        height: 580px;
+    }
+   
+ 
+    section #header span{
+        color: white;
+        text-align: center;
+        position: absolute;
+        width: 15px;
+        border: 1px solid rgba(255, 252, 252, 0.498);
+    }
+   
+    section #valores button{
+        height: 50px; 
+        margin-bottom: 20px;
+        
+    }
+    
+    section #numeros{
+        width: 230px;
+        height: 330px;
+        margin-left: -15px;
+    }
+    section #numeros button{
+        margin-left: 3px;
+    }
+   
+    section #valores button:active {
+        height: 49px; 
+    }
+    
+    section #simbolos{
+        height: 330px;
+        top: 0%;
+        left: 80%; 
+    }
+    section #simbolos #mais{
+        height: 120px;
+    }
+   
+    section #simbolos button:active {
+        height: 50px; 
+    }
+    
+  
+    
+
+
+}

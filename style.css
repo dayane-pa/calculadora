@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 768px) {
     
 
 *{
@@ -16,9 +15,8 @@
 section {
     background-image: linear-gradient(to bottom, black, rgb(171, 166, 166));
     width: 95vw;
-    height: 95%;
+    height: 90%;
     margin: auto;
-    margin-top: 20px;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
@@ -57,18 +55,19 @@ section #header .seg:hover{
 }
 
 section #mostrador{
-    font-size: 30px;
-    line-height: 75px;
+    overflow: hidden;
+    font-size: 32px;
+    line-height: 110px;
     text-align:right;
     color: white;
     margin: auto;
-    width: 250px;
-    height: 80px;
+    width: 280px;
+    height: 120px;
     background-color: rgb(46, 44, 44);
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border: 6px solid rgb(74, 73, 73);
     border-radius: 8px;
-    margin-bottom: 20px;
 }
 
 section #valores{
@@ -84,16 +83,20 @@ section #valores button{
     border-radius: 13px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.623), white);
     color: rgb(56, 52, 52);
-    height: 11vh; 
-    margin-bottom: 10px;
+    height: 9vh; 
+    margin-bottom: 15px;
 }
 
 section #numeros{
-    width: 210px;
-    height: 270px;
+    
+    width: 213px;
+    height: 370px;
+    margin-left: -7px;
 }
 section #numeros button{  
     width: 65px;
+    margin-right: 3px;
+    
 }
 section #numeros #igual{
     width: 135px;
@@ -102,27 +105,27 @@ section #numeros #igual{
 section #valores button:active {
     box-shadow:inset 2px 2px 10px black;
     font-size: 23px;
-    height: 62px; 
+    height: 58px; 
 }
 
 section #simbolos{
-    width:58px ;
-    height: 270px;
+    width:60px ;
+    height: 370px;
     position: absolute;
     top: 0%;
     left: 80%; 
 }
 section #simbolos button{
     width: 55px;
+    margin-left: 7px;
 }
 section #simbolos button:active {
-    height: 65px; 
+    height: 60px; 
 }
 
 section #simbolos #mais{
     width: 55px;
-    height: 24vh;
+    height: 135px;
     margin-bottom: 10px;
 }
 
-}
